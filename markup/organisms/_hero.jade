@@ -1,0 +1,20 @@
+mixin hero(title, text)
+	header.home.u-cf
+		.bg
+		.wrap
+			.top
+				.container
+					.row
+						.two.columns
+							include ../atoms/_logo.jade
+						.seven.columns.u-pull-right
+							include ../molecules/_menu.jade
+
+			.container.hero
+				.row
+					.ten.columns.center.text-center
+						+main_title(title)
+						if text
+							each paragraph in text
+								p!= paragraph
+						include ../molecules/_action.jade

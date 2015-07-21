@@ -1,0 +1,34 @@
+@import "variables.sass"
+@import "utils.sass"
+@import "atoms.sass"
+@import "molecules.sass"
+@import "organisms.sass"
+
+.container
+	max-width: 1200px
+	width: 90%
+
+html
+	height: 100%
+	
+body
+	height: calc(100% - 200px)
+
+body
+  font-family: "Galaxie", Georgia, Helvetica, Arial, serif
+  font-size: 16px
+  line-height: 2
+  color: #444
+  min-width: 1200px
+  // min-height: 2000px
+
+main
+	padding-top: 80px
+	// -webkit-transition: margin .8s cubic-bezier(.84,.3,.33,.9)
+
+	&.inner
+		margin-top: 100px
+		min-height: calc(100% - 340px)
+
+	&.home
+		padding-top: 0

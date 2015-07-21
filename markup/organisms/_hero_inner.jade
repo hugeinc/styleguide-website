@@ -1,0 +1,16 @@
+mixin hero_inner(title)
+	header.u-cf.inner
+		.bg
+		.wrap
+			.top
+				.container
+					.row
+						.two.columns
+							include ../atoms/_logo.jade
+						.seven.columns.u-pull-right
+							include ../molecules/_menu.jade
+
+			.container.hero
+				.row
+					.ten.columns.center
+						+main_title(title)

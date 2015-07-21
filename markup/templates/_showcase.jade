@@ -1,0 +1,13 @@
+include ../organisms/_head.jade
+
++hero_inner('Showcase')
+
+main.inner		
+	.section.u-cf.inner
+		.container
+			.row
+				.ten.columns.center
+					+title('Made with love')
+					!=partial('content/en_US/showcase/showcase.md')
+
+include ../organisms/_footer.jade

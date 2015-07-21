@@ -1,0 +1,23 @@
+mixin section(content)
+	.section.u-cf.inner
+		.container
+			.row
+				.ten.columns.center
+					if content.title
+						+title(title)
+					if content.text
+						each paragraph in content.text
+							p= paragraph
+					if content.sub_sections
+						each sub_section in content.sub_sections
+							+title(sub_section.title)
+							if sub_section.list
+								ul
+									each item in sub_section.list
+										li!= item
+
+					if content.button
+						+button_primary(content.button[0], content.button[1])
+					if content.buttons
+						each button in content.buttons
+							+button_primary(button[0], button[1])

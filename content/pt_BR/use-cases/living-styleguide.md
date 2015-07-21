@@ -1,0 +1,3 @@
+Feito! Tudo que você precisa fazer é incluir o Styleguide em uma pasta separada em seu projeto. Use-o como seu CSS, basta importar o arquivo gerado em seu HTML e é isso!
+
+Dessa forma o seu Styleguide ficará sincronizado com o seu projeto, não é demais?

@@ -1,0 +1,6 @@
+mixin action_secondary(options)
+	.action-secondary
+		ul.list-horz.list-plain
+			each option, index in options
+				li
+					+button_secondary('#action-' + (index + 1), option)

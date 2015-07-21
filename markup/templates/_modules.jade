@@ -1,0 +1,25 @@
+include ../organisms/_head.jade
+
++hero_inner('Modules')
+
+main.inner
+	.image.no-margin.inner
+		.container
+			img(src="images/gif5.gif")		
+	.section.u-cf.inner#how-they-work.no-border
+		.container
+			.row
+				.ten.columns.center
+					+title('How they work')
+					!=partial('content/en_US/modules/how-they-work.md')
+	.image.no-margin
+		.container
+			img(src="images/gif3.gif")		
+	.section.u-cf.inner.no-border#modules-structure
+		.container
+			.row
+				.ten.columns.center
+					+title('Structure')
+					!=partial('content/en_US/modules/modules-structure.md')
+
+include ../organisms/_footer.jade

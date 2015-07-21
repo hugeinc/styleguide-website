@@ -1,0 +1,9 @@
+mixin home_section(title, text)
+	.section.u-cf
+		.container
+			.row
+				.ten.columns.center
+					+title(title)
+					each paragraph in text
+						p= paragraph
+					+button_primary('start.html', 'Get Started')

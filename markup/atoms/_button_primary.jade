@@ -1,0 +1,5 @@
+mixin button_primary(link, name, target)
+	if target
+		a(href=link, target=target).button.primary= name
+	else
+		a(href=link).button.primary= name

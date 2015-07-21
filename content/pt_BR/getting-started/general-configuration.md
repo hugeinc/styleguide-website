@@ -1,0 +1,3 @@
+- Arquivos _data.json. Nestes arquivos ficam todo o conteúdo de texto e configurações. Existe um geral na pasta styleguide, e específicos dentro de cada módulo.
+- Não mexa na pasta structure a não ser que esteja contribuindo para o core do projeto.
+- Adicione na pasta assets, fontes e imagens que seu projeto precisa.

@@ -1,0 +1,3 @@
+The Styleguide is also a independent project. You can download it and use it in your browser. Then all you need to do is edit it's CSS and set/customize the modules.
+
+When you are finished you can send the files to a server or use the HTML version.

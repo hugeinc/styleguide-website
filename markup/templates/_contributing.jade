@@ -1,0 +1,27 @@
+include ../organisms/_head.jade
+
++hero_inner('Contributing')
+
+main.inner		
+	.section.u-cf.inner
+		.container
+			.row
+				.ten.columns.center
+					+title('Creating modules')
+					!=partial('content/en_US/contributing/creating-modules.md')
+
+	.section.u-cf.inner
+		.container
+			.row
+				.ten.columns.center
+					+title('Changing the structure')
+					!=partial('content/en_US/contributing/changing-structure.md')
+	
+	.section.u-cf.inner.no-border
+		.container
+			.row
+				.ten.columns.center
+					+title('Reporting Issues')
+					!=partial('content/en_US/contributing/reporting-issues.md')
+
+include ../organisms/_footer.jade

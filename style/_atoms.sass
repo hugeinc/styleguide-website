@@ -1,0 +1,70 @@
+.main-title, .title, h2, h3, h4, h5
+	font-family: "HUGEAvantGardeBold", Helvetica, Arial, sans
+	-webkit-font-smoothing: antialiased
+
+.main-title
+	font-size: 55px
+
+p
+	margin-bottom: 15px
+
+h1
+	font-size: 40px
+
+h2, .title
+	font-size: 31px
+	color: black
+	margin: 0 0 30px
+
+h3
+	font-size: 26px
+	color: black
+	margin: 40px 0 15px
+
+h4, h5
+	font-size: 22px
+	color: black
+	margin: 35px 0 15px
+
+.button
+	border-radius: 0
+	line-height: 54px
+	font-family: "HUGEAvantGardeBold", Helvetica, Arial, sans
+	font-size: 13px
+	text-align: center
+	text-transform: none
+	font-weight: normal
+	height: auto
+	border-color: #000
+	transition: background-color 0.3s,border-color 0.3s
+	letter-spacing: 0
+	-webkit-font-smoothing: antialiased
+
+	&.primary
+		background-color: #000
+		color: white
+		border: 0
+
+		&:hover
+			background-color: $magenta
+
+	&.secondary
+		border: 3px solid #000
+		color: #000
+		font-size: 15px
+
+		&:hover
+			border-color: $magenta
+
+ul
+	list-style: initial
+	margin-left: 20px
+
+a
+	color: $magenta
+
+	&:hover
+		color: darken($magenta, 5%)
+
+pre
+	margin: 30px 0 50px
