@@ -1,8 +1,7 @@
 # From https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
-echo $GH_TOKEN
-echo $GH_REF
+
 # clear and re-create the out directory
 rm -rf www || exit 0;
 
@@ -26,4 +25,4 @@ git commit -m "Automatic Deploy from Travis CI"
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+git push --force "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
