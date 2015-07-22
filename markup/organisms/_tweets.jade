@@ -1,0 +1,11 @@
+mixin tweets(tweetsUrls)
+    .tweetsContainer
+        ul.clearfix
+        - var i = 0
+        - var count = tweetsUrls.length
+        - var more = count - 16
+        each tweet in tweetsUrls
+            - i++
+            - if (i < 15)
+                input(type='hidden', class='tweetUrl', value=tweet)
+        p.more.text-center #{more} more and counting!

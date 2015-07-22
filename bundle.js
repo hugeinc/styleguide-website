@@ -6288,6 +6288,50 @@ function define(){};  define.amd = {};
 
 
 })();
+System.register("HugeStyleguide/tweets", ["github:components/jquery@2.1.3"], function($__export) {
+  "use strict";
+  var __moduleName = "HugeStyleguide/tweets";
+  var $;
+  return {
+    setters: [function(m) {
+      $ = m.default;
+    }],
+    execute: function() {
+      $__export('default', {
+        init: function() {
+          this.$tweets = $('.tweetUrl');
+          this.$tweetsContainer = $('.tweetsContainer ul');
+          this.renderTweets();
+        },
+        renderTweets: function() {
+          var that = this;
+          this.fetchTweets(function(html) {
+            that.$tweetsContainer.append('<li>' + html + '</li>');
+          });
+        },
+        fetchTweets: function(renderTweetsCallback) {
+          var that = this;
+          $.each(this.$tweets, function() {
+            that.fetchSingleTweet($(this).val(), function(html) {
+              renderTweetsCallback(html.replace('<blockquote', '<blockquote data-cards="hidden" data-conversation="none"'));
+            });
+          });
+        },
+        fetchSingleTweet: function(url, fetchTweetsCallback) {
+          if (typeof url === 'undefined')
+            return false;
+          $.get('https://api.twitter.com/1/statuses/oembed.json?url=' + url, function(data) {
+            if (data.html)
+              fetchTweetsCallback(data.html);
+          });
+        }
+      });
+    }
+  };
+});
+
+
+
 (function() {
 function define(){};  define.amd = {};
 System.register("github:components/jquery@2.1.3", ["github:components/jquery@2.1.3/jquery"], false, function(__require, __exports, __module) {
@@ -6379,16 +6423,20 @@ System.register("HugeStyleguide/hero", ["github:components/jquery@2.1.3"], funct
 
 
 
-System.register("HugeStyleguide/main", ["HugeStyleguide/hero"], function($__export) {
+System.register("HugeStyleguide/main", ["HugeStyleguide/hero", "HugeStyleguide/tweets"], function($__export) {
   "use strict";
   var __moduleName = "HugeStyleguide/main";
-  var Hero;
+  var Hero,
+      Tweets;
   return {
     setters: [function(m) {
       Hero = m.default;
+    }, function(m) {
+      Tweets = m.default;
     }],
     execute: function() {
       Hero.init();
+      Tweets.init();
     }
   };
 });
