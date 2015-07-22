@@ -2,7 +2,8 @@ System.config({
   "paths": {
     "*": "*.js",
     "HugeStyleguide/*": "scripts/*.js",
-    "github:*": "jspm_packages/github/*.js"
+    "github:*": "jspm_packages/github/*.js",
+    "HugeStyleguideWebsite/*": "scripts/*.js"
   }
 });
 

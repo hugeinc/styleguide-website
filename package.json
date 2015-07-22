@@ -1,6 +1,6 @@
 {
   "jspm": {
-    "name": "HugeStyleguide",
+    "name": "HugeStyleguideWebsite",
     "directories": {
       "lib": "scripts"
     },
