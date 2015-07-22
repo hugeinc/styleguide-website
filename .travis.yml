@@ -4,9 +4,7 @@ node_js:
 env:
   global:
   - GH_REF: github.com/hugeinc/styleguide.git
-  - secure: R4FBgwEZKbd2znj7H6+qjuqpKHouG0bP22uco4nVvFyOdidLwmKS0ZiB/o/MEIYXTJSGRNNIOpR8J2mK++z0Z1JSJxyLRc599POQgPW2XVRmEbacCir2f6oChXqezLBqELcCxZ4XsMalVV+bG73xdux9y7rxxIMLGNZUfUFgOy//jV2MJpRWkAOJNdRTCDObS6Y9GNWVrfDoA7yduOO/i1r5td2udEAkn/IaaMbku912MbuaOOakZtB8OXsYxAlyVdc+IF0VBD7dh8vv6AUlxwqIYS/QHtZapqD7sMXpjVUWQdsjXOp65ReBepHJQ/9JAq1rSB05Dxe1CUSkYor9E9KXNQtnWYXxjjhx15UDWO6kRpBJvUnuFV7S0j/puI8yQcMPew+WreOXLY0NO8Thp/4is6oFKehT06S/KGLIw1MM42vYKW/JsdViWuU2fCEesByqlkkWeuL6QmGB5QdWfl5pFlF87aP5cU0Zz/24m0UsJMTxqLgISB91zj20N+aW8GKkWp89oENoT8xs7b5ZQ55PH0HiRP10opB3n5rZ0mI2tEUKTKy48CXQTOyfoVIKo80obkfV7rVxaBp8EbEyBE1oZavsD5w3rtlnS8K/DGFbZ8J2C1PY13kiZ//oHDJX2cww6sTB3z5BUEKvtmQgbDzxwMetRFGaNQVvu+8F1Q8=
 script:
-  - printenv
   - chmod +x deploy.sh build.sh
   - npm install harp -g
   - npm install jspm -g
