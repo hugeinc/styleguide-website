@@ -2,7 +2,14 @@ include ../organisms/_head.jade
 
 +hero_inner('Contributing')
 
-main.inner		
+main.inner
+	.section.u-cf.inner
+		.container
+			.row
+				.ten.columns.center
+					+title('Git branching model')
+					!=partial('content/en_US/contributing/git.md')
+
 	.section.u-cf.inner
 		.container
 			.row

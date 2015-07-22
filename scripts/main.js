@@ -1,3 +1,5 @@
 import Hero from './hero'
+import Tweets from './tweets'
 
-Hero.init()
+Hero.init();
+Tweets.init();
