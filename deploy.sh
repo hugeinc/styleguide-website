@@ -17,12 +17,12 @@ git config user.name "Travis CI"
 git config user.email "cavaccaro@hugeinc.com"
 
 # The first and only commit to this new Git repo contains all the
-# files present with the commit message "Deploy to GitHub Pages".
+# files present with the commit message "Deploy from Travis CI".
 git add --all
-git commit -m "Automatic Deploy from Travis CI"
+git commit -a -m "Automatic Deploy from Travis CI"
 
 # Force push from the current repo's master branch to the remote
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+git push --force "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
