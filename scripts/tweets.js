@@ -24,8 +24,15 @@ export default {
     },
     fetchSingleTweet: function(url, fetchTweetsCallback) {
         if (typeof url === 'undefined') return false;
-        $.get('https://api.twitter.com/1/statuses/oembed.json?url=' + url, function(data) {
+
+        window.jsonpCallback = function(data) {
             if (data.html) fetchTweetsCallback(data.html);
+        }
+
+        $.ajax({
+            url: 'https://api.twitter.com/1/statuses/oembed.json?url=' + url,
+            dataType: "jsonp",
+            jsonpCallback: "jsonpCallback"
         });
     }
 }

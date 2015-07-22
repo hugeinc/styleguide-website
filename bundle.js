@@ -386,7 +386,7 @@ function define(){};  define.amd = {};
   var hasOwn = class2type.hasOwnProperty;
   var support = {};
   var document = window.document,
-      version = "2.1.3",
+      version = "2.1.4",
       jQuery = function(selector, context) {
         return new jQuery.fn.init(selector, context);
       },
@@ -679,7 +679,7 @@ function define(){};  define.amd = {};
     class2type["[object " + name + "]"] = name.toLowerCase();
   });
   function isArraylike(obj) {
-    var length = obj.length,
+    var length = "length" in obj && obj.length,
         type = jQuery.type(obj);
     if (type === "function" || jQuery.isWindow(obj)) {
       return false;
@@ -6263,7 +6263,7 @@ function define(){};  define.amd = {};
   };
   jQuery.fn.andSelf = jQuery.fn.addBack;
   if (typeof define === "function" && define.amd) {
-    System.register("github:components/jquery@2.1.3/jquery", [], false, function(__require, __exports, __module) {
+    System.register("github:components/jquery@2.1.4/jquery", [], false, function(__require, __exports, __module) {
       return (function() {
         return jQuery;
       }).call(this);
@@ -6288,7 +6288,7 @@ function define(){};  define.amd = {};
 
 
 })();
-System.register("HugeStyleguide/tweets", ["github:components/jquery@2.1.3"], function($__export) {
+System.register("HugeStyleguide/tweets", ["github:components/jquery@2.1.4"], function($__export) {
   "use strict";
   var __moduleName = "HugeStyleguide/tweets";
   var $;
@@ -6320,9 +6320,14 @@ System.register("HugeStyleguide/tweets", ["github:components/jquery@2.1.3"], fun
         fetchSingleTweet: function(url, fetchTweetsCallback) {
           if (typeof url === 'undefined')
             return false;
-          $.get('https://api.twitter.com/1/statuses/oembed.json?url=' + url, function(data) {
+          window.jsonpCallback = function(data) {
             if (data.html)
               fetchTweetsCallback(data.html);
+          };
+          $.ajax({
+            url: 'https://api.twitter.com/1/statuses/oembed.json?url=' + url,
+            dataType: "jsonp",
+            jsonpCallback: "jsonpCallback"
           });
         }
       });
@@ -6334,15 +6339,15 @@ System.register("HugeStyleguide/tweets", ["github:components/jquery@2.1.3"], fun
 
 (function() {
 function define(){};  define.amd = {};
-System.register("github:components/jquery@2.1.3", ["github:components/jquery@2.1.3/jquery"], false, function(__require, __exports, __module) {
+System.register("github:components/jquery@2.1.4", ["github:components/jquery@2.1.4/jquery"], false, function(__require, __exports, __module) {
   return (function(main) {
     return main;
-  }).call(this, __require('github:components/jquery@2.1.3/jquery'));
+  }).call(this, __require('github:components/jquery@2.1.4/jquery'));
 });
 
 
 })();
-System.register("HugeStyleguide/hero", ["github:components/jquery@2.1.3"], function($__export) {
+System.register("HugeStyleguide/hero", ["github:components/jquery@2.1.4"], function($__export) {
   "use strict";
   var __moduleName = "HugeStyleguide/hero";
   var $;
