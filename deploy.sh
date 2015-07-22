@@ -4,7 +4,7 @@ set -e # exit with nonzero exit code if anything fails
 
 # clear and re-create the out directory
 rm -rf www || exit 0;
-
+printenv
 # run our compile script, discussed above
 ./build.sh
 
