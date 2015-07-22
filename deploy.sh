@@ -1,7 +1,8 @@
 # From https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
-
+echo $GH_TOKEN
+echo $GH_REF
 # clear and re-create the out directory
 rm -rf www || exit 0;
 
