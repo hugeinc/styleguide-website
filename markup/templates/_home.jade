@@ -25,8 +25,13 @@ main.home
 		.row
 			.twelve.columns.text-center
 				+button_primary('start.html', 'Get Started')
-	//- +home_section('I want a living Styleguide, that I can use since<br>the beginning of the project...', ['Done! All you have to do is to include the Styleguide in a separate folder in your project. Use it as your stylesheet, just import the generated file into your HTML and you are good to go!', 'That way your Styleguide will be in sync with your project, doesn\'t that seems amazing?'])
-	//- +home_section('I already have my project done,<br>but I need a Styleguide!', ['Yeah, we all know how that feels like right? Not a problem! Copy your stylesheet and paste it into the Styleguide CSS file. Then just configure the existing modules to use the proper classes. Bam!', 'And of course you can always create or edit modules as you need.'])
-	//- +home_section('Sorry, I don\'t have or will have a website,<br>I just need to build a Styleguide.', ['Well, the Styleguide is a standalone project as well, you can download it and run it in your browser. You will edit CSS inside the Styleguide and configure your modules.', 'At the end, just upload it to a server and you will have your deliverable!'])
+				- var releaseMain = 'Read the <a href="http://hugeinc.com/ideas/perspective/setting-style" target="_blank">release article on Huge Ideas</a>.'
+				p.release-main !{releaseMain}
 
+				- var releasePortuguese = 'Also on <a href="https://medium.com/@caiovaccaro/definindo-estilo-8d1130fc36bf" target="_blank">Medium (Portuguese)</a>.'
+				p.release-portuguese !{releasePortuguese}
+
+		.row
+			.twelve.columns.text-center
+				+tweets(tweets)
 include ../organisms/_footer.jade
