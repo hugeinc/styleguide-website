@@ -8,4 +8,5 @@ script:
   - chmod +x deploy.sh build.sh
   - npm install harp -g
   - npm install jspm -g
+  - npm install -g postcss-cli autoprefixer
   - bash ./deploy.sh
