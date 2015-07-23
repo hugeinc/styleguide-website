@@ -7,18 +7,23 @@ export default {
         this.renderTweets();
     },
     renderTweets: function() {
-        var that = this;
+        var that = this,
+            tweetsHtml = [];
 
-        this.fetchTweets(function(html) {
-            that.$tweetsContainer.append('<li>' + html + '</li>');
+        this.fetchTweets(function(html, i) {
+            tweetsHtml[i] = '<li>' + html + '</li>';
+
+            if (i == that.$tweets.length - 1) {
+                that.$tweetsContainer.append(tweetsHtml.join(''));
+            }
         });
     },
     fetchTweets: function(renderTweetsCallback) {
         var that = this;
 
-        $.each(this.$tweets, function() {
+        $.each(this.$tweets, function(i, el) {
             that.fetchSingleTweet($(this).val(), function(html) {
-                renderTweetsCallback(html.replace('<blockquote', '<blockquote data-cards="hidden" data-conversation="none"'));
+                renderTweetsCallback(html.replace('<blockquote', '<blockquote data-cards="hidden" data-conversation="none"'), i);
             });
         });
     },
@@ -27,7 +32,7 @@ export default {
 
         window.jsonpCallback = function(data) {
             if (data.html) fetchTweetsCallback(data.html);
-        }
+        };
 
         $.ajax({
             url: 'https://api.twitter.com/1/statuses/oembed.json?url=' + url,
