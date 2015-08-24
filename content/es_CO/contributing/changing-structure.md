@@ -1,32 +1,32 @@
-### Dependencies
+### Dependencias
 - <a href="http://nodejs.org" target="_blank">Node.js</a>
 - <a href="http://harpjs.com" target="_blank">Harp.js</a>
 - <a href="https://www.npmjs.com/package/livereload" target="_blank">Node Livereload</a>
 - <a href="https://www.npmjs.com/package/watch" target="_blank">Node Watch</a>
 
 ### Harp
-Harp is used for both serving files and compiling, such actions are done through the Start.app and Compile.add. The Start.app uses a Node.js file in order to configure Livereload and Harp together.
+Harp es usado para compilar y servir archivos, dichas acciones son realizadas a través de Start.app y Compile.app. Start.app usa un archivo de Nodejs para configurar Livereload y Harp al mismo tiempo.
 
 ### Scripts
-The source of the Start.app and Compile.app are inside of each app content: Contents/Resources/script
+El código fuente de Start.app y Compile.app están dentro de cada uno de los contenidos de la aplicación: `Contents/Resources/script`
 
-### Node Files
-In the styleguide/structure/_node-files folder you will find the code that:  
+### Archivos Node
+En el directorio `styleguide/structure/_node-files` encontrarás el código que:
 
-- Start Harp
-- Start Livereload
-- Writes the current date to styleguide/_data.json file (on start and compile)
-- Concatenate all modules javascript code into one file in styleguide/assets/scripts/styleguide.js
-- Concatenate all modules stylesheet code into one file in styleguide/assets/styles/styleguide.js
+- Inicia Harp
+- Inicia Livereload
+- Escribe la fecha actual en el archivo `styleguide/_data.json` (en start y compile)
+- Concatena todos los módulos JavaScript en un solo archivo `styleguide/assets/scripts/styleguide.js`
+- Concatena todos los módulos de estilos en un solo archivo `styleguide/assets/styles/styleguide.js`
 
-### Structure CSS
-In the folder styleguide/structure/styles is the stylesheet of the structure (header, sidebar and basic components), without any module specific code.
+### Estructura CSS
+En el directorio `styleguide/structure/styles` está la hoja de estilo de la estructura (header, sidebar y componentes básicos), sin código específico de algún módulo.
 
-### Structure Javascript
-In the folder styleguide/structure/scripts is the javascript of the structure (header, sidebar and basic components), without any module specific code.
+### Estructura JavaScript
+En el directorio `styleguide/structure/scripts` está el JavaScript de la estructura (header, sidebar y componentes básicos), sin código específico de algún módulo.
 
-### Modules Data
-The styleguide/structure/_includes/modulesData.jade is responsible for collecting all necessary data of all modules into one object that will be used by all structure files.
+### Información de módulos
+El archivo `styleguide/structure/_includes/modulesData.jade` es responsable de recolectar toda la información necesaria de todos los módulos en un solo objeto que será usado por todos los archivos de la estructura.
 
 ### Pull Request
-In order to do a Pull Request, you should first lint your code with styleguide/structure/_tests/_lint.sh (execute in the command line). Code with lint errors will not be accepted.
+Para realizar un Pull Request, debes primero verificar tu código con `styleguide/structure/_tests/_lint.sh` (ejecutar en la línea de comandos). Código con errores de estilo no será aceptado.
