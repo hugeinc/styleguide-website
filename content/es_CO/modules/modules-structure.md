@@ -1,16 +1,17 @@
-### Folders & Files
+### Directorios & Archivos
 
-The naming rule is: order + _ + module-id  
-example: 1_introduction
+La regla para los nombres es: order + _ + module-id  
 
-The modules and menu order derive from this naming rule.
+Ejemplo: `1_introduction`
 
-The .jade and css files must follow the same folder identification:
+Los módulos y el orden del menú derivan de esta regla de denominación.
+
+Los archivos `.jade` y `css` deben seguir la misma identificación de directorios:
 
 ```markup
 Folder: 1_introduction  
-        /_introduction.jade  
-        /_introduction.sass  
+        /_introduction.jade
+        /_introduction.sass
 ```
 
 ### _data.json
@@ -18,14 +19,14 @@ In this file you can set the module and it's content. The rule is:
 
 ```json
 {
-	"id": "Unique module id, same name as folder but without the order numbers",
-	"name": "Module name, shown in menu and module title",
-	"scripts": ["Javascript file(s) path is optional"],
-	"items": "object, array, ou any type of data that will be held as the modules contents"
+  "id": "Unique module id, same name as folder but without the order numbers",
+  "name": "Module name, shown in menu and module title",
+  "scripts": ["Javascript file(s) path is optional"],
+  "items": "object, array, ou any type of data that will be held as the modules contents"
 }
 ```
 
-Example:
+Ejemplo:
 
 ```json
 // Folder: 2_colors
@@ -52,11 +53,11 @@ Example:
 }
 ```
 ### Jade
-Jade is one of the most simple ways for writing HTML. It allows to use programming logic to write HTML in a smarter way. To learn more, <a href="http://jade-lang.com" target="_blank">click here</a>.
+Jade es una de las formas más simples de escribir HTML. Permite utilizar lógica de programación para escribir HTML de una forma inteligente. Para aprender más haz <a href="http://jade-lang.com" target="_blank">click aquí</a>.
 
-All data from the _data.json file will be available to the .jade file as variables.
+Toda la información del archivo `_data.json` estará disponible para el archivo `.jade` como variables.
 
-### CSS Styles
-This projects supports SASS, LESS and Stylus. Choose one and use the file with the matching extension.
+### Estilos CSS
+Este proyecto soporta SASS, LESS, y Stylus. Escoje uno y usa los archivos con la extensión correspondiente.
 
-The stylesheet of the module will be automatically loaded.
+La hoja de estilo del módulo será cargada automáticamente.

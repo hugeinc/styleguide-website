@@ -1,1 +1,1 @@
-See specific information for:
+Ver información específica para:

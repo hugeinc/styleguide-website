@@ -1,49 +1,49 @@
-1 - You should allow unregistered applications to run in order to use the Start.app file. You can do so in Settings > Security & Privacy
+1 - Debes permitir que aplicaciones sin registrar corran en tu sistema para poder usar el archivo Start.app. Puedes hacerlo en Preferencias > Seguridad & Privacidad
 
-2 - The compiled offline version have a smaller issue on Chrome. Chrome have a security policy of not allowing communication with iframes under file:// protocol, so any interaction that needs such communication will be removed (basically the sidebar menu). This is only for the offline compiled version.
+2 - La versión offline compilada tiene un pequeño problema en Chrome. Chrome tiene una política de seguridad de no permitir la comunicación con iframes bajo el protocolo `file://`, así que cualquier interacción que requiera este tipo de comunicación será eliminada (básicamente el menú lateral). Esto solo aplica para la versión offline compilada.
 
-3 - If you are a Mac user and after running the Start.app you have this error:
+3 - Si eres un usuario de OS X y después de correr Start.app obtienes este error:
 
 ```
 npm ERR! Please try running this command again as root/Administrator.
 ```
-You have probably installed Node with sudo or root permission. You will need to fix permissions to the .npm folder with the following command:
+
+Probablemente hayas instalado Nodejs como sudo o con permisos de root. Debes cambiar los permisos del directorio `.npm` ejecutando los siguientes comandos:
 
 ```
 sudo chown -R $(whoami) ~/.npm
 sudo chown -R $(whoami) /usr/local/lib/node_modules
 ```
 
-After that, try running the Start.app again.
+Después de esto, trata de correr Start.app de nuevo.
 
-4 - If you have XCode installed but have not agreed with the License you will get this error:
+4 - Si tienes Xcode instalado pero no has aceptado los términos de la licencia obtendrás este error:
+
 ```
 Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
 ```
-Open XCode and accept the license, then try running Start.app again.
 
+Abre Xcode y acepta los terminos de la licencia, luego trata de correr Start.app de nuevo.
 
-5 - If you get a **404 - No data received** error, you might have a port conflict, there are two ways you can change the port number (default to **9241**):
-- Change the PORT variable inside styleguide/structure/_node-files/watch.js
-- Set an environment variable (PORT or STYLEGUIDE_PORT):
-
-    If you are running the Styleguide manually, in the last step you might do:
-
+5 - Si obtienes un error `404 - No data received`, es posible que tengas un conflicto de puertos. Existen dos formas en las que puedes cambiar el número del puerto (predeterminado a `9241`):
+- Cambia la variable `PORT` dentro del archivo `styleguide/structure/_node-files/watch.js`
+- Establece una variable de ambiente (`PORT` o `STYLEGUIDE_PORT`):
+    
+    Si estás corriendo la guía de estilo manualmente, en el último paso puedes:
     ```
     PORT=7000 node watch.js
     ```
-    or
+    o
     ```
     STYLEGUIDE_PORT=7000 node watch.js
     ```
-    The Start.app is self contained, and for security reasons it does not have access to external variables.
-    If you want to change the port for the Start.app it is recommended to change the watch.js file.
-    You can, if you want, add a variable to your .bashrc file and it will be available for the Start.app:
+    
+    Start.app es autónomo, y por razones de seguridad no tiene acceso a las variables externas. Si quieres cambiar el puerto para Start.app es recomendado cambiar el archivo `watch.js`. Tambien puedes agregar una variable a tu archivo .bashrc y estará disponible para Start.app:
     ```
     touch ~/.bashrc
     echo 'export PORT=1234' >> ~/.bashrc
     ```
-    or
+    o
     ```
     echo 'export STYLEGUIDE_PORT=1234' >> ~/.bashrc
     ```

@@ -1,17 +1,17 @@
-The Styleguide is completely modular. This means two things:
+La guía de estilo es completamente modular. Esto significa dos cosas:
 
-- Content is separated from code
-- Code is split in independent modules
+- El contenido está separado del código
+- El código se divide en módulos independientes
 
-With this in mind, we recommend you to learn how to use the system before moving on to building your project's styleguide.
+Con esto en mente, te recomendamos aprender como usar el sistema antes de comenzar a construir la guía de estilos de tu proyecto.
 
-##### _data.json files
-- In these files are all the textual content and configurations. 
-- There's one in the styleguide folder and one inside each module.
+### Archivos `_data.son`
+- En estos archivos se encuentra todo el contenido textual y las configuraciones
+- Hay uno en el directorio `styleguide` y uno dentro de cada módulo
 
-##### Generated files
-- In the assets/scripts folder a file will be generated if you want to import all of your modules Javascript into your project.
-- In the assets/styles folder a file will be generated if you want to import all of your modules Stylesheet into your project.
+#### Archivos generados
+- En el directorio `assets/scripts` un archivo será generado si quieres importar todos los módulos JavaScript a tu proyecto
+- En el directorio `assets/styles` un archivo será generado si quieres importar todos los módulos de estilo a tu proyecto
 
-### Modules
-[Click here](modules.html) to learn more about modules.
+### Módulos
+[Click aquí](modules.html) para aprender más acerca de los módulos.

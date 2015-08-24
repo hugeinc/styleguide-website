@@ -1,1 +1,1 @@
-- Click here to learn more about modules.
+- Click aquí para aprender más acerca de los módulos.

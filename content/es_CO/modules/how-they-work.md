@@ -1,8 +1,7 @@
-The modules functionality is a combination of: 
+La funcionalidad de los módulos es una combinación de:
 
-- Config and content inside the _data.json;
-- HTML from .jade files;
-- CSS from .sass (or your chosen pre-processor);
-- Folder structure;
-- Javascript (optional).
-
+- Configuración y contenido dentro del archivo `_data.json`
+- HTML de los archivos `.jade`
+- CSS de los archivos `.scss` (o el preprocesador elegido)
+- La estructura de directorios
+- JavaScript (opcional)
