@@ -1,10 +1,10 @@
-This repo branching model is **inspired by Git Flow**. Currently we have these types of branches:
-- master - Latest release, stable
-- develop - Main development, unstable
-- release/ - Release archive
-- feature/ - Specific features development
-- example/ - Helpful examples
-- hotfix/ - Emergency fixes for latest release
+El modelo de ramas de este repositorio esta **inspirado en Git Flow**. Actualmente contamos con estos tipos de ramas:
+- master - Último release, estable
+- develop - Desarrollo principal, inestable
+- release/ - Archivo de versiones liberadas
+- feature/ - Desarrollo de características específicas
+- example/ - Ejemplos de ayuda
+- hotfix/ - Correcciones de emergencia para la última versión
 
-[Read the Git Flow reference](http://nvie.com/posts/a-successful-git-branching-model/).
-This repo uses [Semantic Versioning](http://semver.org/).
+[Lee la referencia de Git Flow](http://nvie.com/posts/a-successful-git-branching-model/).
+Este repositorio usa [Semantic Versioning](http://semver.org/).

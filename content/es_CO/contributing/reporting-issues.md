@@ -1,6 +1,6 @@
-Please use our <a href="http://github.com/hugeinc/styleguide" target="_blank">Github repository</a> to report issues. All issues must have:
+Por favor usa nuestro <a href="http://github.com/hugeinc/styleguide" target="_blank">repositorio de GitHub</a> para reportar los errores. Todos los reportes deben tener:
 
-- Your operating system (name and version)
-- The browser you are using (name and version)
-- The full copy of any error messages available
-- A full description of how to reproduce the issue you have found
+- Tu sistema operativo (nombre y version)
+- El navegador que estás usando (nombre y version)
+- La copia completa de todos los mensajes de error disponibles
+- Una descripción completa de como reproducir el error que has encontrado

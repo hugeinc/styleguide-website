@@ -1,40 +1,40 @@
-The good news is that whatever you create in the Styleguide will be treated as a module. This way we are able to add an awesome resource for the community.
+Las buenas noticias es que cualquier cosas que crees en la guía de estilo será tratado como un módulo. De esta forma podremos añadir un increíble recurso a la comunidad.
 
-Don't forget to read about ["How modules work"](modules.html#how-they-work) and ["Module Structure"](modules.html#modules-structure) before you move forward.
+No olvides leer acerca de ["Como funcionan los módulos"](modules.html#how-they-work) y ["Estructura de un módulo"](modules.html#modules-structure) antes de continuar.
 
-###_data.json
-You can define a key-value in this file that will be used in your module.
+### `_data.json`
+Puedes definir un key-value en este archivo que luego será usado en tu módulo.
 
-Examples:
+Ejemplos:
 
 ```json
 "items": {
-	"people": [
-		{
-			"name": "John",
-			"age": "32"
-		},
-		{
-			"name": "Kirsten",
-			"age": "28"
-		}
-	]
+  "people": [
+    {
+      "name": "John",
+      "age": "32"
+    },
+    {
+      "name": "Kirsten",
+      "age": "28"
+    }
+  ]
 }
 ```
 
 ### Jade
-You can use all the info of _data.json inside the .jade file:
+Puedes usar toda la información contenida en `_data.json` dentro del archivo `.jade`:
 
 ```html
 table
-	each folk in people
-		tr
-			td=folk.name
-			td=folk.age
+  each folk in people
+    tr
+      td=folk.name
+      td=folk.age
 ```
 
-### Javascript
-In case you need Javascript for your module, use the key scripts e and add the file path:
+### JavaScript
+En caso de que necesites JavaScript para un módulo, usa la clave (`key`) `scripts` y añade la ruta del archivo:
 
 ```json
 "scripts": ["vendor/foundation.equalizer.js", "pricing-tables.js"]
