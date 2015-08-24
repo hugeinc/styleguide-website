@@ -5,7 +5,7 @@
 - <a href="https://www.npmjs.com/package/watch" target="_blank">Node Watch</a>
 
 ### Harp
-Harp is used for both serving files and compiling, such actions are done through the Start.app and Compile.add. The Start.app uses a Node.js file in order to configure Livereload and Harp together.
+Harp is used for both serving files and compiling, such actions are done through the Start.app and Compile.app. The Start.app uses a Node.js file in order to configure Livereload and Harp together.
 
 ### Scripts
 The source of the Start.app and Compile.app are inside of each app content: Contents/Resources/script
