@@ -8,4 +8,6 @@ mixin tweets(tweetsUrls)
             - if (i < 15)
                 input(type='hidden', class='tweetUrl', value=tweet)
 
-        p.clear.more.text-center #{count} and counting!
+        p.clear.more.text-center
+            =count
+            =public._data.commonTerms.counting[language]

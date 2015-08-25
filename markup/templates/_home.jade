@@ -1,11 +1,8 @@
-//- this need to become a partial and receive language from the invocation
-- var language = public._data.language
 - var commonTerms = public._data.commonTerms
 
 include ../organisms/_head.jade
 +hero('Styleguide.', [commonTerms.slogan[language]])
 
-//- 'Welcome to the Huge Styleguide project! There are several tools to help you create styleguides<br>on the web, but all of them are directed to developers. And even for developers, it might not<br>satisfy the case where you want a beautiful and functional styleguide published fast.'
 main.home
 	.image
 		.container
@@ -15,27 +12,27 @@ main.home
 			+title(commonTerms.useCases[language])
 		.row.use-cases
 			.four.columns.box
-				+title('Living styleguide')
+				+title(commonTerms.living[language])
 				!=partial('content/en_US/use-cases/living-styleguide.md')
 			.four.columns.box
-				+title('Existing website')
+				+title(commonTerms.existing[language])
 				!=partial('content/en_US/use-cases/existing-site.md')
 			.four.columns.box
-				+title('Just give me one')
+				+title(commonTerms.giveMe[language])
 				!=partial('content/en_US/use-cases/give-me-one.md')
 		.row
 			.twelve.columns.text-center
-				+button_primary('start.html', 'Get Started')
+				+button_primary('start.html', commonTerms.getStarted[language])
 
 		.row.release-container
 			.six.columns.box.text-center.release-main
 				a(href="http://www.hugeinc.com/ideas/perspective/setting-style", target="_blank")
 					.overlay
-					+title('Release article on Huge Ideas.')
+					+title(commonTerms.releaseEn[language])
 			.six.columns.box.text-center.release-portuguese
 				a(href="https://medium.com/@caiovaccaro/definindo-estilo-8d1130fc36bf", target="_blank")
 					.overlay
-					+title('Release article on Medium (Portuguese).')
+					+title(commonTerms.releasePt[language])
 		.row
 			.twelve.columns.text-center
 				+tweets(public._data.tweets)
