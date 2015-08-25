@@ -1,6 +1,9 @@
-include ../organisms/_head.jade
+//- this need to become a partial and receive language from the invocation
+- var language = public._data.language
+- var commonTerms = public._data.commonTerms
 
-+hero('Styleguide.', ['A tool to make creating and maintaining styleguides easy.'])
+include ../organisms/_head.jade
++hero('Styleguide.', [commonTerms.slogan[language]])
 
 //- 'Welcome to the Huge Styleguide project! There are several tools to help you create styleguides<br>on the web, but all of them are directed to developers. And even for developers, it might not<br>satisfy the case where you want a beautiful and functional styleguide published fast.'
 main.home
@@ -9,7 +12,7 @@ main.home
 			img(src="images/gif2.gif")
 	.container
 		.text-center.use-cases
-			+title('Use cases')
+			+title(commonTerms.useCases[language])
 		.row.use-cases
 			.four.columns.box
 				+title('Living styleguide')
@@ -35,5 +38,5 @@ main.home
 					+title('Release article on Medium (Portuguese).')
 		.row
 			.twelve.columns.text-center
-				+tweets(tweets)
+				+tweets(public._data.tweets)
 include ../organisms/_footer.jade
