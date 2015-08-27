@@ -1,155 +1,155 @@
 {
-    "language": "en",
+    "language": "en_US",
     "commonTerms": {
         "download": {
-            "en": "Download",
-            "pt": "Download",
-            "es": "Decargar"
+            "en_US": "Download",
+            "pt_BR": "Download",
+            "es_CO": "Decargar"
         },
         "gettingStarted": {
-            "en": "Getting Started",
-            "pt": "Começando",
-            "es": "Comenzando"
+            "en_US": "Getting Started",
+            "pt_BR": "Começando",
+            "es_CO": "Comenzando"
         },
         "getStarted": {
-            "en": "Get Started",
-            "pt": "Começar",
-            "es": "Comenzar"
+            "en_US": "Get Started",
+            "pt_BR": "Começar",
+            "es_CO": "Comenzar"
         },
         "modules": {
-            "en": "Modules",
-            "pt": "Módulos",
-            "es": "Módulos"
+            "en_US": "Modules",
+            "pt_BR": "Módulos",
+            "es_CO": "Módulos"
         },
         "contributing": {
-            "en": "Contributing",
-            "pt": "Contribuindo",
-            "es": "Contribuciones"
+            "en_US": "Contributing",
+            "pt_BR": "Contribuindo",
+            "es_CO": "Contribuciones"
         },
         "repository": {
-            "en": "Github Repository",
-            "pt": "Repositório no Github",
-            "es": "Repositorio de GitHub"
+            "en_US": "Github Repository",
+            "pt_BR": "Repositório no Github",
+            "es_CO": "Repositorio de GitHub"
         },
         "demo": {
-            "en": "Online Demo",
-            "pt": "Demo Online",
-            "es": "Demostración en línea"
+            "en_US": "Online Demo",
+            "pt_BR": "Demo Online",
+            "es_CO": "Demostración en línea"
         },
         "downloadZip": {
-            "en": "Download Zip",
-            "pt": "Download do Zip",
-            "es": "Descargar Zip"
+            "en_US": "Download Zip",
+            "pt_BR": "Download do Zip",
+            "es_CO": "Descargar Zip"
         },
         "counting": {
-            "en": " and counting!",
-            "pt": " e contanto!",
-            "es": " y contando!"
+            "en_US": " and counting!",
+            "pt_BR": " e contanto!",
+            "es_CO": " y contando!"
         },
         "branchingModel": {
-            "en": "Git branching model",
-            "pt": "Modelo de branchs do Git",
-            "es": "Modelo de ramas Git"
+            "en_US": "Git branching model",
+            "pt_BR": "Modelo de branchs do Git",
+            "es_CO": "Modelo de ramas Git"
         },
         "creatingModules": {
-            "en": "Creating modules",
-            "pt": "Criando módulos",
-            "es": "Creando modelos"
+            "en_US": "Creating modules",
+            "pt_BR": "Criando módulos",
+            "es_CO": "Creando modelos"
         },
         "changingStructure": {
-            "en": "Changing the structure",
-            "pt": "Alterandoa  estrutura",
-            "es": "Cambiando la estructura"
+            "en_US": "Changing the structure",
+            "pt_BR": "Alterandoa  estrutura",
+            "es_CO": "Cambiando la estructura"
         },
         "report": {
-            "en": "Reporting Issues",
-            "pt": "Reportando erros",
-            "es": "Reportando errores"
+            "en_US": "Reporting Issues",
+            "pt_BR": "Reportando erros",
+            "es_CO": "Reportando errores"
         },
         "version": {
-            "en": "Choose version",
-            "pt": "Escolha a versão",
-            "es": "Seleccionar versión"
+            "en_US": "Choose version",
+            "pt_BR": "Escolha a versão",
+            "es_CO": "Seleccionar versión"
         },
         "downloadMac": {
-            "en": "Download for Mac",
-            "pt": "Download para Mac",
-            "es": "Descargar para Mac"
+            "en_US": "Download for Mac",
+            "pt_BR": "Download para Mac",
+            "es_CO": "Descargar para Mac"
         },
         "downloadWindows": {
-            "en": "Download for Windows/Linux",
-            "pt": "Download para Windows/Linux",
-            "es": "Descargar para Windows/Linux"
+            "en_US": "Download for Windows/Linux",
+            "pt_BR": "Download para Windows/Linux",
+            "es_CO": "Descargar para Windows/Linux"
         },
         "mac": {
-            "en": "Mac",
-            "pt": "Mac",
-            "es": "Mac"
+            "en_US": "Mac",
+            "pt_BR": "Mac",
+            "es_CO": "Mac"
         },
         "windowsLinux": {
-            "en": "Windows/Linux",
-            "pt": "Windows/Linux",
-            "es": "Windows/Linux"
+            "en_US": "Windows/Linux",
+            "pt_BR": "Windows/Linux",
+            "es_CO": "Windows/Linux"
         },
         "useCases": {
-            "en": "Use Cases",
-            "pt": "Casos de uso",
-            "es": "Casos de uso"
+            "en_US": "Use Cases",
+            "pt_BR": "Casos de uso",
+            "es_CO": "Casos de uso"
         },
         "living": {
-            "en": "Living styleguide",
-            "pt": "Styleguide vivo",
-            "es": ""
+            "en_US": "Living styleguide",
+            "pt_BR": "Styleguide vivo",
+            "es_CO": ""
         },
         "existing": {
-            "en": "Existing website",
-            "pt": "Website existente",
-            "es": ""
+            "en_US": "Existing website",
+            "pt_BR": "Website existente",
+            "es_CO": ""
         },
         "giveMe": {
-            "en": "Just give me one",
-            "pt": "Me dê um logo",
-            "es": ""
+            "en_US": "Just give me one",
+            "pt_BR": "Me dê um logo",
+            "es_CO": ""
         },
         "releaseEn": {
-            "en": "Release article on Huge Ideas.",
-            "pt": "Artigo de lançamento no Huge Ideas (inglês).",
-            "es": ""
+            "en_US": "Release article on Huge Ideas.",
+            "pt_BR": "Artigo de lançamento no Huge Ideas (inglês).",
+            "es_CO": ""
         },
         "releasePt": {
-            "en": "Release article on Medium (Portuguese).",
-            "pt": "Artigo de lançamento no Medium (português).",
-            "es": ""
+            "en_US": "Release article on Medium (Portuguese).",
+            "pt_BR": "Artigo de lançamento no Medium (português).",
+            "es_CO": ""
         },
         "howTheyWork": {
-            "en": "How they work",
-            "pt": "Como funcionam",
-            "es": "Como funcionan"
+            "en_US": "How they work",
+            "pt_BR": "Como funcionam",
+            "es_CO": "Como funcionan"
         },
         "structure": {
-            "en": "Structure",
-            "pt": "Estrutura",
-            "es": "Estructura"
+            "en_US": "Structure",
+            "pt_BR": "Estrutura",
+            "es_CO": "Estructura"
         },
         "howToUse": {
-            "en": "How to use",
-            "pt": "Como usar",
-            "es": "Como usarla"
+            "en_US": "How to use",
+            "pt_BR": "Como usar",
+            "es_CO": "Como usarla"
         },
         "manualInstallation": {
-            "en": "Manual installation",
-            "pt": "Instalação manual",
-            "es": "Instalación manual"
+            "en_US": "Manual installation",
+            "pt_BR": "Instalação manual",
+            "es_CO": "Instalación manual"
         },
         "knownIssues": {
-            "en": "Known issues",
-            "pt": "Problemas conhecidos",
-            "es": "Problemas conocidos"
+            "en_US": "Known issues",
+            "pt_BR": "Problemas conhecidos",
+            "es_CO": "Problemas conocidos"
         },
         "slogan": {
-            "en": "A tool to make creating and maintaining styleguides easy.",
-            "pt": "Uma ferramenta para criar e manter style guides facilmente.",
-            "es": "Una herramienta para crear y mantener guías de estilo de forma sencilla."
+            "en_US": "A tool to make creating and maintaining styleguides easy.",
+            "pt_BR": "Uma ferramenta para criar e manter style guides facilmente.",
+            "es_CO": "Una herramienta para crear y mantener guías de estilo de forma sencilla."
         }
     },
     "tweets": [
