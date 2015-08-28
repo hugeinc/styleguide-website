@@ -49,12 +49,12 @@
         "branchingModel": {
             "en_US": "Git branching model",
             "pt_BR": "Modelo de branchs do Git",
-            "es_CO": "Modelo de ramas Git"
+            "es_CO": "Modelo de ramas de Git"
         },
         "creatingModules": {
             "en_US": "Creating modules",
             "pt_BR": "Criando módulos",
-            "es_CO": "Creando modelos"
+            "es_CO": "Creando módulos"
         },
         "changingStructure": {
             "en_US": "Changing the structure",
@@ -99,27 +99,27 @@
         "living": {
             "en_US": "Living styleguide",
             "pt_BR": "Styleguide vivo",
-            "es_CO": ""
+            "es_CO": "Styleguide viva"
         },
         "existing": {
             "en_US": "Existing website",
             "pt_BR": "Website existente",
-            "es_CO": ""
+            "es_CO": "Website existente"
         },
         "giveMe": {
             "en_US": "Just give me one",
             "pt_BR": "Me dê um logo",
-            "es_CO": ""
+            "es_CO": "Solo dame uno"
         },
         "releaseEn": {
             "en_US": "Release article on Huge Ideas.",
             "pt_BR": "Artigo de lançamento no Huge Ideas (inglês).",
-            "es_CO": ""
+            "es_CO": "Libera el artículo en Huge Ideas (inglés)."
         },
         "releasePt": {
             "en_US": "Release article on Medium (Portuguese).",
             "pt_BR": "Artigo de lançamento no Medium (português).",
-            "es_CO": ""
+            "es_CO": "Libera el artículo en Medium (portugués)."
         },
         "howTheyWork": {
             "en_US": "How they work",
@@ -149,7 +149,7 @@
         "slogan": {
             "en_US": "A tool to make creating and maintaining styleguides easy.",
             "pt_BR": "Uma ferramenta para criar e manter style guides facilmente.",
-            "es_CO": "Una herramienta para crear y mantener guías de estilo de forma sencilla."
+            "es_CO": "Una herramienta para crear y mantener guías de estilo de forma simple."
         }
     },
     "tweets": [
