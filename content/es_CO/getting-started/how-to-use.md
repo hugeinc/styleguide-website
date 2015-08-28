@@ -1,4 +1,4 @@
-La guía de estilo es completamente modular. Esto significa dos cosas:
+Styleguide es completamente modular. Esto significa dos cosas:
 
 - El contenido está separado del código
 - El código se divide en módulos independientes

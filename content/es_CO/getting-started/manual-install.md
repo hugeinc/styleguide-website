@@ -9,12 +9,12 @@ npm install
 ```
 
 ##### `harp server`
-Para iniciar la guía de estilo, ve al directorio raíz y ejecuta en la línea de comandos:
+Para iniciar Styleguide, ve al directorio raíz y ejecuta en la línea de comandos:
 ```
 cd styleguide/structure/_node-files && node watch.js
 harp server
 ```
-Espera y el navegador se abrirá con la guía de estilos corriendo.
+Espera y el navegador se abrirá con Styleguide corriendo.
 
 
 ##### `harp compile`

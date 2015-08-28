@@ -1,4 +1,4 @@
-Las buenas noticias es que cualquier cosas que crees en la guía de estilo será tratado como un módulo. De esta forma podremos añadir un increíble recurso a la comunidad.
+Las buenas noticias son que cualquier cosa que crees en el Styleguide será tratado como un módulo. De esta forma podremos añadir un increíble recurso a la comunidad.
 
 No olvides leer acerca de ["Como funcionan los módulos"](modules.html#how-they-work) y ["Estructura de un módulo"](modules.html#modules-structure) antes de continuar.
 
