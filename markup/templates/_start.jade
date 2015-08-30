@@ -1,43 +1,50 @@
+- var commonTerms = public._data.commonTerms
+- var howToUse = '../../content/' + language + '/getting-started/how-to-use.md'
+- var mac = '../../content/' + language + '/getting-started/mac.md'
+- var windowsLinux = '../../content/' + language + '/getting-started/windows-linux.md'
+- var manualInstall = '../../content/' + language + '/getting-started/manual-install.md'
+- var knownIssues = '../../content/' + language + '/getting-started/known-issues.md'
+
 include ../organisms/_head.jade
 
-+hero_inner('Getting Started')
++hero_inner(commonTerms.gettingStarted[language])
 
 main.inner
 		.image.no-margin.inner
 			.container
-				img(src="images/gif1.gif")
+				img(src="/images/gif1.gif")
 
 		.section.u-cf.inner#how-t-use
 			.container
 				.row
 					.ten.columns.center
-						+title('How to use')
-						!=partial('content/en_US/getting-started/how-to-use.md')
+						+title(commonTerms.howToUse[language])
+						!=partial(howToUse)
 		.section.u-cf.inner#mac
 			.container
 				.row
 					.ten.columns.center
-						+title('Mac')
-						!=partial('content/en_US/getting-started/mac.md')
-						+button_primary('https://github.com/hugeinc/styleguide/archive/master.zip', 'Download Mac Version')
+						+title(commonTerms.mac[language])
+						!=partial(mac)
+						+button_primary('https://github.com/hugeinc/styleguide/archive/master.zip', commonTerms.downloadMac[language])
 		.section.u-cf.inner#windows-linux
 			.container
 				.row
 					.ten.columns.center
-						+title('Windows/Linux')
-						!=partial('content/en_US/getting-started/windows-linux.md')
-						+button_primary('https://github.com/hugeinc/styleguide/archive/windows-linux.zip', 'Download Win/Linux Version')
+						+title(commonTerms.windowsLinux[language])
+						!=partial(windowsLinux)
+						+button_primary('https://github.com/hugeinc/styleguide/archive/windows-linux.zip', commonTerms.downloadWindows[language])
 		.section.u-cf.inner#manual-install
 			.container
 				.row
 					.ten.columns.center
-						+title('Manual installation')
-						!=partial('content/en_US/getting-started/manual-install.md')
+						+title(commonTerms.manualInstallation[language])
+						!=partial(manualInstall)
 		.section.u-cf.inner.no-border#know-issues
 			.container
 				.row
 					.ten.columns.center
-						+title('Known issues')
-						!=partial('content/en_US/getting-started/known-issues.md')
+						+title(commonTerms.knownIssues[language])
+						!=partial(knownIssues)
 
 include ../organisms/_footer.jade

@@ -1,13 +1,16 @@
+- var commonTerms = public._data.commonTerms
+- var showcase = '../../content/' + language + '/showcase/showcase.md'
+
 include ../organisms/_head.jade
 
-+hero_inner('Showcase')
++hero_inner(commonTerms.showcase[language])
 
 main.inner
 	.section.u-cf.inner
 		.container
 			.row
 				.ten.columns.center
-					+title('Made with love')
-					!=partial('content/en_US/showcase/showcase.md')
+					+title(commonTerms.madeWithLove[language])
+					!=partial(showcase)
 
 include ../organisms/_footer.jade

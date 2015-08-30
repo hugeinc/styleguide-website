@@ -1,25 +1,29 @@
+- var commonTerms = public._data.commonTerms
+- var howTheyWork = '../../content/' + language + '/modules/how-they-work.md'
+- var modulesStructure = '../../content/' + language + '/modules/modules-structure.md'
+
 include ../organisms/_head.jade
 
-+hero_inner('Modules')
++hero_inner(commonTerms.modules[language])
 
 main.inner
 	.image.no-margin.inner
 		.container
-			img(src="images/gif5.gif")
+			img(src="/images/gif5.gif")
 	.section.u-cf.inner#how-they-work.no-border
 		.container
 			.row
 				.ten.columns.center
-					+title('How they work')
-					!=partial('content/en_US/modules/how-they-work.md')
+					+title(commonTerms.howTheyWork[language])
+					!=partial(howTheyWork)
 	.image.no-margin
 		.container
-			img(src="images/gif3.gif")
+			img(src="/images/gif3.gif")
 	.section.u-cf.inner.no-border#modules-structure
 		.container
 			.row
 				.ten.columns.center
-					+title('Structure')
-					!=partial('content/en_US/modules/modules-structure.md')
+					+title(commonTerms.structure[language])
+					!=partial(modulesStructure)
 
 include ../organisms/_footer.jade

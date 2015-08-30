@@ -150,6 +150,16 @@
             "en_US": "A tool to make creating and maintaining styleguides easy.",
             "pt_BR": "Uma ferramenta para criar e manter style guides facilmente.",
             "es_CO": "Una herramienta para crear y mantener guías de estilo de forma simple."
+        },
+        "madeWithLove": {
+            "en_US": "Made with love",
+            "pt_BR": "Feito com amor",
+            "es_CO": ""
+        },
+        "showcase": {
+            "en_US": "Showcase",
+            "pt_BR": "Showcase",
+            "es_CO": ""
         }
     },
     "tweets": [
