@@ -1,14 +1,16 @@
+- var commonTerms = public._data.commonTerms
+
 include ../organisms/_head.jade
 
-+hero_inner('Download')
++hero_inner(commonTerms.download[language])
 
 main.inner
 	.section.u-cf.inner.no-border
 		.container
 			.row
 				.ten.columns.center
-					+title('Choose version')
-					+button_primary('https://github.com/hugeinc/styleguide/archive/master.zip', 'Download for Mac')
-					+button_primary('https://github.com/hugeinc/styleguide/archive/release/windows-linux.zip', 'Download for Windows/Linux')
+					+title(commonTerms.version[language])
+					+button_primary('https://github.com/hugeinc/styleguide/archive/master.zip', commonTerms.downloadMac[language])
+					+button_primary('https://github.com/hugeinc/styleguide/archive/release/windows-linux.zip', commonTerms.downloadWindows[language])
 
 include ../organisms/_footer.jade
