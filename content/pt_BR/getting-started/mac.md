@@ -1,6 +1,7 @@
-Para usuários de Mac, temos um arquivo que instala todas as dependências necessárias para ter o Styleguide rodando.
+Para usuários Mac nós temos um instalador com todas as dependências necessárias para rodar o Styleguide.
 
-- O app Start, instala tudo que você precisa. Você vai precisar digitar a sua senha uma vez ou outra e confirmar instalações. No fim, o Styleguide abrirá automaticamente no seu navegador, caso já tenha tudo instalado, apenas o último passo é executado.
-- O app Compile, gera a versão final estática do Styleguide em uma pasta www.
+- O 'Start' app, irá instalar tudo que precisa. Por favor confira a seção [Issues conhecidos](#know-issues) antes de rodar o app. Quandos finalizar a instalação do Styleguide, ele irá abrir automaticamente no seu navegador. Se você tiver alguma dependência instalada no seu computador, o Styleguide irá abrir.
 
-*Está com problemas? Clique aqui.
+- O 'Compile' app cria uma versão estática do Styleguide em um diretório 'www'.
+
+*Problemas? [Clique aqui](#know-issues).
