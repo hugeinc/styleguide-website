@@ -29,13 +29,13 @@
             "en_US": "Contributing",
             "pt_BR": "Contribuindo",
             "es_CO": "Contribuciones",
-            "fr_FR": "Contributions"
+            "fr_FR": "Contribution"
         },
         "repository": {
             "en_US": "Github Repository",
             "pt_BR": "Repositório no Github",
             "es_CO": "Repositorio de GitHub",
-            "fr_FR": "Dépot Github"
+            "fr_FR": "Dépôt Github"
         },
         "demo": {
             "en_US": "Online Demo",
@@ -119,7 +119,7 @@
             "en_US": "Living styleguide",
             "pt_BR": "Styleguide vivo",
             "es_CO": "Styleguide viva",
-            "fr_FR": "Living styleguide"
+            "fr_FR": "Styleguide vivant"
         },
         "existing": {
             "en_US": "Existing website",
@@ -131,7 +131,7 @@
             "en_US": "Just give me one",
             "pt_BR": "Me dê um logo",
             "es_CO": "Solo dame uno",
-            "fr_FR": "Donnes m'en un"
+            "fr_FR": "Juste un"
         },
         "releaseEn": {
             "en_US": "Release article on Huge Ideas.",
