@@ -1,12 +1,5 @@
 Le modèle de branches de ce dépôt est **inspiré de Git Flow**. Actuellement voici les branches disponibles:
-- master - Dernière version, stable
-- develop - Développement principale, instable
-- release/ - Archives de publications
-- feature/ - Développement de caractéristiques spécifiques
-- example/ - Examples utiles
-- hotfix/ - Emergency fixes for latest release
 
-<!-- This repo branching model is **inspired by Git Flow**. Currently we have these types of branches: -->
 - master - Latest release, stable
 - develop - Main development, unstable
 - release/ - Release archive

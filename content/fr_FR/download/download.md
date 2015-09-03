@@ -1,1 +1,1 @@
-Choose the desired version:
+Choisissez la version souhaitée:
