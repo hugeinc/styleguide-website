@@ -1,21 +1,25 @@
-### Dependencies
+### Dépendances
 - <a href="http://nodejs.org" target="_blank">Node.js</a>
 - <a href="http://harpjs.com" target="_blank">Harp.js</a>
 - <a href="https://www.npmjs.com/package/livereload" target="_blank">Node Livereload</a>
 - <a href="https://www.npmjs.com/package/watch" target="_blank">Node Watch</a>
 
 ### Harp
-Harp is used for both serving files and compiling, such actions are done through the Start.app and Compile.app. The Start.app uses a Node.js file in order to configure Livereload and Harp together.
+Harp est utilisé en tant que serveur local et pour la compilation. Ces actions s'effectuent avec Start.app et Compile.app. Start.app utilise un fichier Node.js pour configurer Livereload et Harp conjointement.
+
+<!-- Harp is used for both serving files and compiling, such actions are done through the Start.app and Compile.app. The Start.app uses a Node.js file in order to configure Livereload and Harp together. -->
 
 ### Scripts
-The source of the Start.app and Compile.app are inside of each app content: Contents/Resources/script
+Les sources de Start.app et Compile.app se trouvent dans chaque contenu d'application respectif: Contents/Resources/script
+<!-- The source of the Start.app and Compile.app are inside of each app content: Contents/Resources/script -->
 
-### Node Files
-In the styleguide/structure/_node-files folder you will find the code that:  
+### Fichiers Node
+Dans dossier styleguide/structure/_node-files vous trouverez le code qui:
+<!-- In the styleguide/structure/_node-files folder you will find the code that: -->
 
-- Start Harp
-- Start Livereload
-- Writes the current date to styleguide/_data.json file (on start and compile)
+- Lance Harp
+- Lance Livereload
+- Inscrit la date du jour dans le fichier styleguide/_data.json (avec start et compile)
 - Concatenate all modules javascript code into one file in styleguide/assets/scripts/styleguide.js
 - Concatenate all modules stylesheet code into one file in styleguide/assets/styles/styleguide.js
 
