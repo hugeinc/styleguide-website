@@ -1,6 +1,6 @@
-Sorry! We currently don't have any 'magical' app for these platforms. We're working on that.
+Désolé, nous ne disposons pas actuellement d'application 'magique' pour ces plateformes. Mais nous y travaillons.
 
-To use the Styleguide you'll need to execute a couple of commands in the command-line.
+Pour utiliser Styleguide, vous devez exécuter quelques ligne de commande dans le terminal.
 
-*[Check the "Manual Install"](#manual-install) section.
+*[Visiter la section "Installation manuelle"](#manual-install).
 

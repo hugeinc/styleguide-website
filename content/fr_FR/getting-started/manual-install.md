@@ -1,26 +1,26 @@
-This project has the following dependencies (click to install each of them):
+Ce projet a les dépendances suivantes (Cliquez pour les installer chacune d'elles):
 
 - <a href="http://nodejs.org" target="_blank">Node.js</a>
 - <a href="http://harpjs.com" target="_blank">Harp.js</a>
 
-You also need to go to styleguide/structure/_node-files and run:
+Vous pouvez également aller au dossier styleguide/structure/_node-files et lancer dans le terminal:
 ```
 npm install
 ```
 
-To start the Styleguide go to the root folder and execute in the command-line:
+Pour lancer Styleguide, aller au dossier racine et exécuter en ligne de commande:
 
 ##### harp server
 
 ```
 cd styleguide/structure/_node-files && node watch.js
 ```
-Wait and the browser will open with the Styleguide running.
+Patienter pendant que le navigateur sóuvre avec Styleguide.
 
 ##### harp compile
-To manually compile the project, go to its root folder and execute (still in the command-line):
+Pour compiler manuellement le projet, aller au dossier racine et exécuter (en ligne de commande):
 ```
 cd styleguide/structure/_node-files && node write-date-exec.js
 cd ../../.. && harp compile
 ```
-A folder called 'www' will contain all the compiled files.
+Un dossier nommé 'www' sera créé avec tous les fichiers compilés.
