@@ -1,1 +1,1 @@
-The following projects were built from the Huge Styleguide:
+Les projets suivants ont été construits à partir du Styleguide Huge:

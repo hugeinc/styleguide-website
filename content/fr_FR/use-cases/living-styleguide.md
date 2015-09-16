@@ -1,3 +1,3 @@
-Done! All you need to do is to add the Styleguide to a separate folder in your project. Use it as your CSS. You just need to import the generated file inside your HTML and you are all set!
+Paré! Tout ce que vous devez faire est d'ajouter Styleguide dans un dossier distinct de votre projet. Utilisez-le comme votre CSS.Vous avez juste besoin d'importer le fichier généré à l'intérieur de votre code HTML et vous êtes paré!
 
-This way the Styleguide will be synced with your project. Isn't that awesome!?
+De cette façon, Styleguide sera synchronisé avec votre projet. Est-ce pas génial !?

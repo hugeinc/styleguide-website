@@ -1,3 +1,3 @@
-The Styleguide is also a independent project. You can download it and use it in your browser. Then all you need to do is edit it's CSS and set/customize the modules.
+Styleguide est un projet indépendant. Vous pouvez le télécharger et l'utiliser dans votre navigateur. Ensuite, il vous suffit de modifier le CSS et personnaliser les modules.
 
-When you are finished you can send the files to a server or use the HTML version.
+Lorsque vous avez terminé, vous pouvez envoyer les fichiers sur un serveur ou d'utiliser la version HTML.

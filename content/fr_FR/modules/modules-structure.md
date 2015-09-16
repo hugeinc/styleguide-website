@@ -1,62 +1,63 @@
-### Folders & Files
+### Dossier & Fichiers
 
-The naming rule is: order + _ + module-id  
+La règle de nommage est la suivante: ordre + _ + module-id
 example: 1_introduction
 
-The modules and menu order derive from this naming rule.
+Les modules et l'ordre des menus découlent de cette règle de nommage.
 
-The .jade and css files must follow the same folder identification:
+Les fichiers .jade et css doivent suivrent la même identification que les dossiers:
 
 ```markup
-Folder: 1_introduction  
-        /_introduction.jade  
-        /_introduction.sass  
+Dossier: 1_introduction
+         /_introduction.jade
+         /_introduction.sass
 ```
 
 ### _data.json
-In this file you can set the module and it's content. The rule is:
+Dans ce fichier, vous pouvez définier le module et son contenu. La règle est la suivante:
 
 ```json
 {
-	"id": "Unique module id, same name as folder but without the order numbers",
-	"name": "Module name, shown in menu and module title",
-	"scripts": ["Javascript file(s) path is optional"],
-	"items": "object, array, ou any type of data that will be held as the modules contents"
+	"id": "Id unique de module, même nom que le dossier mais sans les numéros de commande",
+	"name": "Nom du module, comme montré dans le menu et titre",
+	"scripts": ["Chemin de fichier(s) Javascript optionnel"],
+	"items": "objet, array, ou out type de données, qui servira de contenu pour les modules"
 }
 ```
 
 Example:
 
 ```json
-// Folder: 2_colors
+// Dossier: 2_couleurs
 {
-    "id": "colors",
-    "name": "Colors",
+    "id": "couleurs",
+    "name": "Couleurs",
     "items": {
-        "intro": ["Huge have two main colors: Magenta and Black."],
-        "colors": [
+        "intro": ["Huge possède deux couleurs principales: magenta et noir."],
+        "couleurs": [
             {
                 "className": "bg-magenta"
             },
             {
-                "className": "bg-black"
+                "className": "bg-noir"
             },
             {
-                "className": "bg-grey"
+                "className": "bg-gris"
             },
             {
-                "className": "bg-blue"
+                "className": "bg-bleu"
             }
         ]
     }
 }
 ```
 ### Jade
-Jade is one of the most simple ways for writing HTML. It allows to use programming logic to write HTML in a smarter way. To learn more, <a href="http://jade-lang.com" target="_blank">click here</a>.
+Jade est l'un des moyens les plus simples pour écriture du HTML. Il permet d'utiliser une logique de programmation pour écrire du HTML d'une façon plus intelligente. En apprendre plus, <a href="http://jade-lang.com" target="_blank">sur Jade</a>.
 
-All data from the _data.json file will be available to the .jade file as variables.
+Toutes les données des fichiers _data.json sera disponible dans les fichiers .jade comme variables.
 
-### CSS Styles
-This projects supports SASS, LESS and Stylus. Choose one and use the file with the matching extension.
+### Styles CSS
+Ce projet utilise SASS, LESS et Stylus.
+This projects supports SASS, LESS and Stylus. Choisissez en un et utilisez l'extension correspondante pour les fichiers.
 
-The stylesheet of the module will be automatically loaded.
+La feuille de style du module sera automatiquement chargé.

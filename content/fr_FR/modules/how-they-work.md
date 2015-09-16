@@ -1,8 +1,7 @@
-The modules functionality is a combination of: 
+Le fonctionnement des modules est une combinaison de:
 
-- Config and content inside the _data.json;
-- HTML from .jade files;
-- CSS from .sass (or your chosen pre-processor);
-- Folder structure;
-- Javascript (optional).
-
+- Configuration et contenu dans le fichier _data.json;
+- HTML avec les fichiers .jade;
+- CSS avec les fichier .sass (ou votre pré-processeur de choix);
+- Structure de dossiers;
+- Javascript (optionnel).
