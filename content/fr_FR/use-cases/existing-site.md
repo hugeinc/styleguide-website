@@ -1,3 +1,3 @@
-Nous savons ce que c'est, pas de panique. Copiez le css de votre projet dans le fichier CSS du Styleguide. Maintenant vous avez seulement besoin de personnaliser les modules d'utiliser les classes appropriées.
+Nous savons ce que c'est, pas de panique. Copiez le CSS de votre projet dans le fichier CSS de Styleguide. Maintenant vous avez seulement besoin de personnaliser les modules afin d'utiliser les classes appropriées.
 
-Vous pouvez toujours créer / modifier un module quand vous avez besoin.
+Vous pouvez toujours créer et/ou modifier un module quand vous en avez besoin.

@@ -3,10 +3,10 @@ Styleguide est totalement modulaire, ce qui signifie deux choses:
 - Le contenu est séparé du code.
 - Le code est divisé en modules indépendants.
 
-Avec ceci à l'esprit, nous vous recommendons d'apprendre à utiliser le système avant de commencer à construire le guide de style pour votre projet.
+Avec ceci à l'esprit, nous vous recommendons d'apprendre à utiliser le système avant de commencer à construire la charte graphique pour votre projet.
 
 ##### Fichiers _data.json
-- Dans ces fichiers vous trouverez tout le contenu textuel e les configurations.
+- Dans ces fichiers vous trouverez tout le contenu textuel et les configurations.
 - Il y en a un dans le dosser du guide et un dans chaque module.
 
 ##### Fichiers génerés

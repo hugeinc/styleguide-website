@@ -1,14 +1,14 @@
-La bonne nouvelle est que quelque soit ce que vous créée dans le Styleguide sera traité en tant que module. Ainsi nous pouvons integrer une super ressource pour la communauté.
+La bonne nouvelle est que tout ce que vous créée dans Styleguide sera traité en tant que module. Ainsi nous pouvons integrer une super ressource pour la communauté.
 
-N'oubliez pas de lire ["How modules work (anglais)"](modules.html#how-they-work) et ["Module Structure (anglais"](modules.html#modules-structure) avant d'aller plus en  avant.
+N'oubliez pas de lire ["How modules work (anglais)"](modules.html#how-they-work) et ["Module Structure (anglais"](modules.html#modules-structure) avant d'aller plus loin.
 
 ###_data.json
-Vous pouvez définier une valeur-clé dans ce fichier pour être utilisée dans votre module.
+Vous pouvez définir une valeur-clé dans ce fichier pour être utilisée dans votre module.
 
 Exemples:
 
 ```json
-"items": {
+"elements": {
 	"personnes": [
 		{
 			"nom": "John",
@@ -29,7 +29,7 @@ Vous pouvez utiliser toutes les données de _data.json dans le fichier .jade.
 table
 	each personne in personnes
 		tr
-			td=personne.nome
+			td=personne.nom
 			td=personne.age
 ```
 

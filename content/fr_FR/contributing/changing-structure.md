@@ -16,8 +16,8 @@ Dans dossier styleguide/structure/_node-files vous trouverez le code qui:
 - Lance Harp
 - Lance Livereload
 - Inscrit la date du jour dans le fichier styleguide/_data.json (avec start et compile)
-- Concatenate all modules javascript code into one file in styleguide/assets/scripts/styleguide.js
-- Concatenate all modules stylesheet code into one file in styleguide/assets/styles/styleguide.js
+- Concatène tous les modules javascript en un fichier dans styleguide/assets/scripts/styleguide.js
+- Concatène tous les fichiers css en un fichier dans styleguide/assets/styles/styleguide.js
 
 ### Structure CSS
 Dans le dossier styleguide/structure/styles se trouve la feuille de style de la structure (header, sidebar et composants basiques), sans code de module spécifique.

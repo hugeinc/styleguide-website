@@ -83,7 +83,7 @@
             "en_US": "Choose version",
             "pt_BR": "Escolha a versão",
             "es_CO": "Seleccionar versión",
-            "fr_FR": "Choisir la version "
+            "fr_FR": "Choisissez votre version"
         },
         "downloadMac": {
             "en_US": "Download for Mac",
@@ -131,7 +131,7 @@
             "en_US": "Just give me one",
             "pt_BR": "Me dê um logo",
             "es_CO": "Solo dame uno",
-            "fr_FR": "Juste un"
+            "fr_FR": "Styleguide unique"
         },
         "releaseEn": {
             "en_US": "Release article on Huge Ideas.",
@@ -179,7 +179,7 @@
             "en_US": "A tool to make creating and maintaining styleguides easy.",
             "pt_BR": "Uma ferramenta para criar e manter style guides facilmente.",
             "es_CO": "Una herramienta para crear y mantener guías de estilo de forma simple.",
-            "fr_FR": "Un outil pour simplifier la création et manutention de guides de style."
+            "fr_FR": "Un outil pour simplifier la création et manutention de chartes graphique."
         },
         "madeWithLove": {
             "en_US": "Made with love",

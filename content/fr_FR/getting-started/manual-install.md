@@ -15,7 +15,7 @@ Pour lancer Styleguide, aller au dossier racine et exécuter en ligne de command
 ```
 cd styleguide/structure/_node-files && node watch.js
 ```
-Patienter pendant que le navigateur sóuvre avec Styleguide.
+Patienter pendant que le navigateur s'ouvre avec Styleguide.
 
 ##### harp compile
 Pour compiler manuellement le projet, aller au dossier racine et exécuter (en ligne de commande):
