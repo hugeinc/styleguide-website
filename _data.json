@@ -4,162 +4,194 @@
         "download": {
             "en_US": "Download",
             "pt_BR": "Download",
-            "es_CO": "Decargar"
+            "es_CO": "Decargar",
+            "fr_FR": "Télécharger"
         },
         "gettingStarted": {
             "en_US": "Getting Started",
             "pt_BR": "Começando",
-            "es_CO": "Comenzando"
+            "es_CO": "Comenzando",
+            "fr_FR": "Commencer"
         },
         "getStarted": {
             "en_US": "Get Started",
             "pt_BR": "Começar",
-            "es_CO": "Comenzar"
+            "es_CO": "Comenzar",
+            "fr_FR": "Commencer"
         },
         "modules": {
             "en_US": "Modules",
             "pt_BR": "Módulos",
-            "es_CO": "Módulos"
+            "es_CO": "Módulos",
+            "fr_FR": "Modules"
         },
         "contributing": {
             "en_US": "Contributing",
             "pt_BR": "Contribuindo",
-            "es_CO": "Contribuciones"
+            "es_CO": "Contribuciones",
+            "fr_FR": "Contribution"
         },
         "repository": {
             "en_US": "Github Repository",
             "pt_BR": "Repositório no Github",
-            "es_CO": "Repositorio de GitHub"
+            "es_CO": "Repositorio de GitHub",
+            "fr_FR": "Dépôt Github"
         },
         "demo": {
             "en_US": "Online Demo",
             "pt_BR": "Demo Online",
-            "es_CO": "Demostración en línea"
+            "es_CO": "Demostración en línea",
+            "fr_FR": "Démo en ligne"
         },
         "downloadZip": {
             "en_US": "Download Zip",
             "pt_BR": "Download do Zip",
-            "es_CO": "Descargar Zip"
+            "es_CO": "Descargar Zip",
+            "fr_FR": "Télécharger Zip"
         },
         "counting": {
             "en_US": " and counting!",
             "pt_BR": " e contanto!",
-            "es_CO": " y contando!"
+            "es_CO": " y contando!",
+            "fr_FR": " et comptant!"
         },
         "branchingModel": {
             "en_US": "Git branching model",
             "pt_BR": "Modelo de branchs do Git",
-            "es_CO": "Modelo de ramas de Git"
+            "es_CO": "Modelo de ramas de Git",
+            "fr_FR": "Modèle de branches sous Git"
         },
         "creatingModules": {
             "en_US": "Creating modules",
             "pt_BR": "Criando módulos",
-            "es_CO": "Creando módulos"
+            "es_CO": "Creando módulos",
+            "fr_FR": "Création de modules"
         },
         "changingStructure": {
             "en_US": "Changing the structure",
             "pt_BR": "Alterandoa  estrutura",
-            "es_CO": "Cambiando la estructura"
+            "es_CO": "Cambiando la estructura",
+            "fr_FR": "Changer la structure"
         },
         "report": {
             "en_US": "Reporting Issues",
             "pt_BR": "Reportando erros",
-            "es_CO": "Reportando errores"
+            "es_CO": "Reportando errores",
+            "fr_FR": "Rapport de problèmes"
         },
         "version": {
             "en_US": "Choose version",
             "pt_BR": "Escolha a versão",
-            "es_CO": "Seleccionar versión"
+            "es_CO": "Seleccionar versión",
+            "fr_FR": "Choisissez votre version"
         },
         "downloadMac": {
             "en_US": "Download for Mac",
             "pt_BR": "Download para Mac",
-            "es_CO": "Descargar para Mac"
+            "es_CO": "Descargar para Mac",
+            "fr_FR": "Télécharger pour Mac"
         },
         "downloadWindows": {
             "en_US": "Download for Windows/Linux",
             "pt_BR": "Download para Windows/Linux",
-            "es_CO": "Descargar para Windows/Linux"
+            "es_CO": "Descargar para Windows/Linux",
+            "fr_FR": "Télécharger pour Windows/Linux"
         },
         "mac": {
             "en_US": "Mac",
             "pt_BR": "Mac",
-            "es_CO": "Mac"
+            "es_CO": "Mac",
+            "fr_FR": "Mac"
         },
         "windowsLinux": {
             "en_US": "Windows/Linux",
             "pt_BR": "Windows/Linux",
-            "es_CO": "Windows/Linux"
+            "es_CO": "Windows/Linux",
+            "fr_FR": "Windows/Linux"
         },
         "useCases": {
             "en_US": "Use Cases",
             "pt_BR": "Casos de uso",
-            "es_CO": "Casos de uso"
+            "es_CO": "Casos de uso",
+            "fr_FR": "Cas d'utilisation"
         },
         "living": {
             "en_US": "Living styleguide",
             "pt_BR": "Styleguide vivo",
-            "es_CO": "Styleguide viva"
+            "es_CO": "Styleguide viva",
+            "fr_FR": "Styleguide vivant"
         },
         "existing": {
             "en_US": "Existing website",
             "pt_BR": "Website existente",
-            "es_CO": "Website existente"
+            "es_CO": "Website existente",
+            "fr_FR": "Site web existant"
         },
         "giveMe": {
             "en_US": "Just give me one",
             "pt_BR": "Me dê um logo",
-            "es_CO": "Solo dame uno"
+            "es_CO": "Solo dame uno",
+            "fr_FR": "Styleguide unique"
         },
         "releaseEn": {
             "en_US": "Release article on Huge Ideas.",
             "pt_BR": "Artigo de lançamento no Huge Ideas (inglês).",
-            "es_CO": "Libera el artículo en Huge Ideas (inglés)."
+            "es_CO": "Libera el artículo en Huge Ideas (inglés).",
+            "fr_FR": "Article de lançement sur Huge Ideas (anglais)"
         },
         "releasePt": {
             "en_US": "Release article on Medium (Portuguese).",
             "pt_BR": "Artigo de lançamento no Medium (português).",
-            "es_CO": "Libera el artículo en Medium (portugués)."
+            "es_CO": "Libera el artículo en Medium (portugués).",
+            "fr_FR": "Article de lançement sur Medium (portugais)"
         },
         "howTheyWork": {
             "en_US": "How they work",
             "pt_BR": "Como funcionam",
-            "es_CO": "Como funcionan"
+            "es_CO": "Como funcionan",
+            "fr_FR": "Comment ça marche"
         },
         "structure": {
             "en_US": "Structure",
             "pt_BR": "Estrutura",
-            "es_CO": "Estructura"
+            "es_CO": "Estructura",
+            "fr_FR": "Structure"
         },
         "howToUse": {
             "en_US": "How to use",
             "pt_BR": "Como usar",
-            "es_CO": "Como usarla"
+            "es_CO": "Como usarla",
+            "fr_FR": "Comment utiliser"
         },
         "manualInstallation": {
             "en_US": "Manual installation",
             "pt_BR": "Instalação manual",
-            "es_CO": "Instalación manual"
+            "es_CO": "Instalación manual",
+            "fr_FR": "Instalation manuelle"
         },
         "knownIssues": {
             "en_US": "Known issues",
             "pt_BR": "Problemas conhecidos",
-            "es_CO": "Problemas conocidos"
+            "es_CO": "Problemas conocidos",
+            "fr_FR": "Problèmes connus"
         },
         "slogan": {
             "en_US": "A tool to make creating and maintaining styleguides easy.",
             "pt_BR": "Uma ferramenta para criar e manter style guides facilmente.",
-            "es_CO": "Una herramienta para crear y mantener guías de estilo de forma simple."
+            "es_CO": "Una herramienta para crear y mantener guías de estilo de forma simple.",
+            "fr_FR": "Un outil pour simplifier la création et manutention de chartes graphique."
         },
         "madeWithLove": {
             "en_US": "Made with love",
             "pt_BR": "Feito com amor",
-            "es_CO": ""
+            "es_CO": "",
+            "fr_FR": "Fait avec passion"
         },
         "showcase": {
             "en_US": "Showcase",
             "pt_BR": "Showcase",
-            "es_CO": ""
+            "es_CO": "",
+            "fr_FR": "Exemples réèls"
         }
     },
     "tweets": [
