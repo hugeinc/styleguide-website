@@ -1,4 +1,8 @@
-A funcionalidade dos módulos vem de uma combinação de: configuração e conteúdo do _data.json, HTML provido do .jade, CSS que vem do .sass (ou qualquer pré-processador), estrutura de pastas e opcionalmente arquivos javascript.
+A funcionalidade dos módulos é uma combinação de:
 
-Muita coisa? Na verdade é bem simples, veja em estrutura dos módulos.
+- Configuração e conteúdo dentro do _data.json;
+- HTML dos arquivos .jade;
+- CSS do .sass (ou o pre-processor de sua escolha);
+- Estrutura de diretórios;
+- Javascript (opcional).
 

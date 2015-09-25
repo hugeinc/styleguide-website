@@ -32,7 +32,7 @@ Exemplo:
     "id": "colors",
     "name": "Colors",
     "items": {
-        "intro": ["Huge have two main colors: Magenta and Black. Additional Blue might be found on slides or t-shirts."],
+        "intro": ["Huge tem duas cores primárias: Magenta e Preto. Adicionalmente Azul pode ser achado nos slides ou em t-shirts."],
         "colors": [
             {
                 "className": "bg-magenta"
