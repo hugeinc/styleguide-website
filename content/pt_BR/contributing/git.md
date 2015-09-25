@@ -2,7 +2,7 @@ O modelo de branchs desse repositório é **inspirado pelo Git Flow**. Atualment
 - master - Último release, estável (stable)
 - develop - Principal de desenvolvimento, Instável (unstable)
 - release/ - Arquivo de release
-- feature/ - Desenvolvimento específico de uma feature
+- feature/ - Desenvolvimento específico de uma funcionalidade
 - example/ - Exemplos para ajudar
 - hotfix/ - Ajustes emergenciais para o último release
 
