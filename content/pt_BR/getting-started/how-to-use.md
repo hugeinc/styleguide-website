@@ -5,10 +5,13 @@ O Styleguide é totalmente modular. Isso significa duas coisas:
 
 Com isso em mente, é valido saber onde você precisa mexer em um uso comum.
 
-### General Configuration
-- Arquivos _data.json. Nestes arquivos ficam todo o conteúdo de texto e configurações. Existe um geral na pasta styleguide, e específicos dentro de cada módulo.
-- Não mexa na pasta structure a não ser que esteja contribuindo para o core do projeto.
-- Adicione na pasta assets, fontes e imagens que seu projeto precisa.
+##### arquivos _data.json
+- Nesses arquivos estão todos os conteúdos textuais e de configuração
+- Existe um no diretório do Styleguide e um dentro de cada módulo.
 
-### Modules
-- Clique aqui e saiba mais sobre os módulos
+##### Arquivos gerados
+- No diretório assets/scripts um arquivo será gerado se você quiser importar todos os seus módulos Javascript para o seu projeto.
+- No diretório assets/styles um arquivo será gerado se você quiser importar todos os seus módulos de estilo para o seu projeto.
+
+### Módulos
+[Clique aqui](modules.html) para aprender mais sobre módulos.

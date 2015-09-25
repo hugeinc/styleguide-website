@@ -1,39 +1,40 @@
+- var commonTerms = public._data.commonTerms
+- var livingStyleguide = '../../content/' + language + '/use-cases/living-styleguide.md'
+- var existingSite = '../../content/' + language + '/use-cases/existing-site.md'
+- var giveMeOne = '../../content/' + language + '/use-cases/give-me-one.md'
+
 include ../organisms/_head.jade
-
-+hero('Styleguide.', ['A tool to make creating and maintaining styleguides easy.'])
-
-//- 'Welcome to the Huge Styleguide project! There are several tools to help you create styleguides<br>on the web, but all of them are directed to developers. And even for developers, it might not<br>satisfy the case where you want a beautiful and functional styleguide published fast.'
++hero('Styleguide.', [commonTerms.slogan[language]])
 main.home
-	.image
-		.container
-			img(src="images/gif2.gif")
-	.container
-		.text-center.use-cases
-			+title('Use cases')
-		.row.use-cases
-			.four.columns.box
-				+title('Living styleguide')
-				!=partial('content/en_US/use-cases/living-styleguide.md')
-			.four.columns.box
-				+title('Existing website')
-				!=partial('content/en_US/use-cases/existing-site.md')
-			.four.columns.box
-				+title('Just give me one')
-				!=partial('content/en_US/use-cases/give-me-one.md')
-		.row
-			.twelve.columns.text-center
-				+button_primary('start.html', 'Get Started')
-
-		.row.release-container
-			.six.columns.box.text-center.release-main
-				a(href="http://www.hugeinc.com/ideas/perspective/setting-style", target="_blank")
-					.overlay
-					+title('Release article on Huge Ideas.')
-			.six.columns.box.text-center.release-portuguese
-				a(href="https://medium.com/@caiovaccaro/definindo-estilo-8d1130fc36bf", target="_blank")
-					.overlay
-					+title('Release article on Medium (Portuguese).')
-		.row
-			.twelve.columns.text-center
-				+tweets(tweets)
+    .image
+        .container
+            img(src="/images/gif2.gif")
+    .container
+        .text-center.use-cases
+            +title(commonTerms.useCases[language])
+        .row.use-cases
+            .four.columns.box
+                +title(commonTerms.living[language])
+                !=partial(livingStyleguide)
+            .four.columns.box
+                +title(commonTerms.existing[language])
+                !=partial(existingSite)
+            .four.columns.box
+                +title(commonTerms.giveMe[language])
+                !=partial(giveMeOne)
+        .row
+            .twelve.columns.text-center
+                +button_primary('start.html', commonTerms.getStarted[language])
+        .row.release-container
+            .six.columns.box.text-center.release-main
+                a(href="http://www.hugeinc.com/ideas/perspective/setting-style", target="_blank")
+                    .overlay
+                    +title(commonTerms.releaseEn[language])
+            .six.columns.box.text-center.release-portuguese
+                a(href="https://medium.com/@caiovaccaro/definindo-estilo-8d1130fc36bf", target="_blank")
+                    .overlay
+                    +title(commonTerms.releasePt[language])
+        .row
+            .twelve.columns.text-center
+                +tweets(public._data.tweets)
 include ../organisms/_footer.jade

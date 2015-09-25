@@ -1,9 +1,14 @@
+- var commonTerms = public._data.commonTerms
+
 ul.menu.list-horz.list-plain
-	+menu_link('download.html', 'Download')
-	+menu_link('start.html', 'Getting Started')
-	+menu_link('modules.html', 'Modules')
+	+menu_link('download.html', commonTerms.download[language])
+	+menu_link('start.html', commonTerms.gettingStarted[language])
+	+menu_link('modules.html', commonTerms.modules[language])
 	//- +menu_link('showcase.html', 'Showcase')
-	+menu_link('contributing.html', 'Contributing')
-	//- +menu_link('/pt', 'Portuguese')
+	+menu_link('contributing.html', commonTerms.contributing[language])
+	+language_link('/', 'EN', 'first')
+	+language_link('/pt', 'PT')
+	+language_link('/es', 'ES')
+	+language_link('/fr', 'FR', 'last')
 	li.styleguide-github-star
 		iframe(src="https://ghbtns.com/github-btn.html?user=hugeinc&repo=styleguide&type=watch&count=true", frameborder="0", scrolling="0", width="170px", height="20px")

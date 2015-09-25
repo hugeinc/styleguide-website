@@ -1,34 +1,40 @@
+- var commonTerms = public._data.commonTerms
+- var git = '../../content/' + language + '/contributing/git.md'
+- var creatingModules = '../../content/' + language + '/contributing/creating-modules.md'
+- var changingStructure = '../../content/' + language + '/contributing/changing-structure.md'
+- var reportingIssues = '../../content/' + language + '/contributing/reporting-issues.md'
+
 include ../organisms/_head.jade
 
-+hero_inner('Contributing')
++hero_inner(commonTerms.contributing[language])
 
 main.inner
 	.section.u-cf.inner
 		.container
 			.row
 				.ten.columns.center
-					+title('Git branching model')
-					!=partial('content/en_US/contributing/git.md')
+					+title(commonTerms.branchingModel[language])
+					!=partial(git)
 
 	.section.u-cf.inner
 		.container
 			.row
 				.ten.columns.center
-					+title('Creating modules')
-					!=partial('content/en_US/contributing/creating-modules.md')
+					+title(commonTerms.creatingModules[language])
+					!=partial(creatingModules)
 
 	.section.u-cf.inner
 		.container
 			.row
 				.ten.columns.center
-					+title('Changing the structure')
-					!=partial('content/en_US/contributing/changing-structure.md')
+					+title(commonTerms.changingStructure[language])
+					!=partial(changingStructure)
 	
 	.section.u-cf.inner.no-border
 		.container
 			.row
 				.ten.columns.center
-					+title('Reporting Issues')
-					!=partial('content/en_US/contributing/reporting-issues.md')
+					+title(commonTerms.report[language])
+					!=partial(reportingIssues)
 
 include ../organisms/_footer.jade
