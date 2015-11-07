@@ -4,13 +4,13 @@
         "download": {
             "en_US": "Download",
             "pt_BR": "Download",
-            "es_CO": "Decargar",
+            "es_CO": "Descargar",
             "fr_FR": "Télécharger"
         },
         "gettingStarted": {
             "en_US": "Getting Started",
             "pt_BR": "Começando",
-            "es_CO": "Comenzando",
+            "es_CO": "Comerzar",
             "fr_FR": "Commencer"
         },
         "getStarted": {
@@ -136,13 +136,13 @@
         "releaseEn": {
             "en_US": "Release article on Huge Ideas.",
             "pt_BR": "Artigo de lançamento no Huge Ideas (inglês).",
-            "es_CO": "Libera el artículo en Huge Ideas (inglés).",
+            "es_CO": "Artículo de lanzamiento en Huge Ideas (inglés).",
             "fr_FR": "Article de lançement sur Huge Ideas (anglais)"
         },
         "releasePt": {
             "en_US": "Release article on Medium (Portuguese).",
             "pt_BR": "Artigo de lançamento no Medium (português).",
-            "es_CO": "Libera el artículo en Medium (portugués).",
+            "es_CO": "Artículo de lanzamiento en Medium (portugués).",
             "fr_FR": "Article de lançement sur Medium (portugais)"
         },
         "howTheyWork": {
@@ -184,13 +184,13 @@
         "madeWithLove": {
             "en_US": "Made with love",
             "pt_BR": "Feito com amor",
-            "es_CO": "",
+            "es_CO": "Hecho con amor",
             "fr_FR": "Fait avec passion"
         },
         "showcase": {
             "en_US": "Showcase",
             "pt_BR": "Showcase",
-            "es_CO": "",
+            "es_CO": "Vitrina",
             "fr_FR": "Exemples réèls"
         }
     },
